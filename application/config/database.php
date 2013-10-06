@@ -45,24 +45,24 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = 'SAS';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+$db['SAS']['hostname'] = '127.0.0.1';
+$db['SAS']['username'] = 'root';
+$db['SAS']['password'] = 'secret';
+$db['SAS']['database'] = 'SAS';
+$db['SAS']['dbdriver'] = 'mysql';
+$db['SAS']['dbprefix'] = '';
+$db['SAS']['pconnect'] = TRUE;
+$db['SAS']['db_debug'] = TRUE;
+$db['SAS']['cache_on'] = FALSE;
+$db['SAS']['cachedir'] = '';
+$db['SAS']['char_set'] = 'utf8';
+$db['SAS']['dbcollat'] = 'utf8_general_ci';
+$db['SAS']['swap_pre'] = '';
+$db['SAS']['autoinit'] = TRUE;
+$db['SAS']['stricton'] = FALSE;
 
 
 /* End of file database.php */
